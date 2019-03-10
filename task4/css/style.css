@@ -1,0 +1,17 @@
+body {
+  font-family: sans-serif;
+}
+
+.form {
+  width: 960px;
+  height: 360px;
+  background-color: lightgray;
+}
+
+.input_width_b {
+  width: 156px;
+}
+
+.input_width_s {
+  width: 60px;
+}
