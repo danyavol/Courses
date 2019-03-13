@@ -13,9 +13,9 @@ hr {
   float: left;
   width: 100%;
   background-color: #c0c0c0;
-  height: 1px;
+  height: 2px;
   border-width: 0px;
-  margin: 9px 0;
+  margin: 9px 0 9px 0;
 }
 
 a {
@@ -30,6 +30,12 @@ a:visited {
 a:hover {
   color: inherit;
   text-decoration: underline;
+}
+
+.top_line {
+  height: 17px;
+  width: 100%;
+  background: #090909;
 }
 
 .container {
@@ -50,7 +56,6 @@ a:hover {
 }
 
 .email {
-  font-family: Arial;
   font-size: 13px;
   float: right;
   color: #999898;
@@ -65,14 +70,12 @@ a:hover {
 
 .menu_item {
   text-decoration: none;
-  font-family: Arial;
   font-weight: bold;
   font-size: 12px;
   float: left;
 }
 
 .menu_item2 {
-  font-family: Arial;
   font-weight: bold;
   font-size: 12px;
   margin-left: 63px;
@@ -84,7 +87,7 @@ a:hover {
   width: 100%;
   background: #fb9400;
   float: left;
-  margin: 10px 0 20px 0;
+  margin: 10px 0 9px 0;
 }
 
 .banner_text {
@@ -101,7 +104,6 @@ a:hover {
 }
 
 .banner_title {
-  font-family: Arial;
   font-size: 85px;
   font-style: italic;
   font-weight: bold;
@@ -138,23 +140,68 @@ a:hover {
 }
 
 .about {
+  font-size: 18px;
+  font-weight: bold;
   float: left;
-  margin: 25px 0 25px 0;
-  min-height: 270px;
+  margin: 15px 0 15px 0;
+  min-height: 220px;
+}
+
+.about_hr {
+  width: 100%;
+  float: left;
+  background-color: #090909;
+  height: 6px;
+  border-width: 0px;
+  margin: 12px 0 21px 0;
+}
+
+.about_content {
+  font-size: 12px;
+  font-weight: normal;
+  float: left;
+}
+
+.about_content2 {
+
+  font-size: 12px;
+  color: #fe9b00;
+  font-weight: bold;
+}
+
+.about_content3 {
+  color: #fe9b00;
+  margin-top: 15px;
+  font-size: 12px;
+  font-weight: normal;
+  float: left;
+}
+
+.about_content_italic {
+  margin-top: 26px;
+  font-style: italic;
+}
+
+.about_ul {
+  margin: 0px;
+  list-style-type: square;
+  padding-left: 30px;
+}
+
+.about_li {
+  margin-bottom: 15px;
 }
 
 .text1 {
   width: 283px;
   margin-right: 56px;
   min-height: 185px;
-  background: #ccc;
   float: left;
 }
 
 .text2 {
   width: 282px;
   min-height: 208px;
-  background: #ccc;
   float: left;
   margin-right: 56px;
 }
@@ -162,18 +209,19 @@ a:hover {
 .text3 {
   width: 282px;
   min-height: 184px;
-  background: #ccc;
   float: left;
 }
 
 .portfolio {
   width: 100%;
-  margin: 25px 0 25px 0;
-  min-height: 230px;
+  margin: 16px 0 31px 0;
+  min-height: 150px;
   float: left;
 }
 
 .portfolio_name {
+  font-weight: bold;
+  font-size: 18px;
   min-height: 14px;
   margin-bottom: 20px;
   width: 100%;
@@ -213,23 +261,24 @@ a:hover {
 }
 
 .updates_name1 {
+  font-size: 12px;
+  font-weight: bold;
   margin-bottom: 30px;
   float: left;
   width: 745px;
 }
 
 .updates_name2 {
-  font-family: Arial;
   font-size: 12px;
   font-weight: bold;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   float: left;
 }
 
 .updates_content1 {
+  font-size: 12px;
   min-height: 55px;
   width: 660px;
-  background: #ccc;
   float: left;
 }
 
@@ -241,7 +290,6 @@ a:hover {
 .icon {
   width: 32px;
   height: 32px;
-  background: #ccc;
   margin-right: 15px;
   float: left;
 }
@@ -259,7 +307,7 @@ a:hover {
 }
 
 .footer_info {
-  font-family: Arial;
+  font-size: 12px;
   size: 12px;
   line-height: 1.5;
   margin-top: 30px;
