@@ -244,9 +244,8 @@ a:hover {
 }
 
 .updates {
-  margin: 25px 0 0 0;
+  margin: 25px 0 40px 0;
   float: left;
-  min-height: 165px;
 }
 
 .updates_left {
@@ -277,7 +276,6 @@ a:hover {
 
 .updates_content1 {
   font-size: 12px;
-  min-height: 55px;
   width: 660px;
   float: left;
 }
