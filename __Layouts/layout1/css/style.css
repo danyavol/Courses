@@ -13,7 +13,7 @@ hr {
   float: left;
   width: 100%;
   background-color: #c0c0c0;
-  height: 2px;
+  height: 1px;
   border-width: 0px;
   margin: 9px 0 9px 0;
 }
@@ -91,7 +91,7 @@ a:hover {
 
 .banner {
   width: 100%;
-  background: #fb9400;
+  background: linear-gradient(-55deg, #e25000, #fe9b00);
   float: left;
   margin: 10px 0 9px 0;
 }
@@ -104,25 +104,25 @@ a:hover {
   box-sizing: border-box;
 }
 
-.banner_image {
-  float: right;
-  max-width: 480px;
-}
-
-.banner_img {
-    margin-top: 27px;
-    display: block;
-}
-
-.banner_title {
-  letter-spacing: 1;
+.banner_text h2 {
+  letter-spacing: 4px;
   font-size: 85px;
   font-weight: bold;
   color: white;
   margin: 0;
   text-transform: uppercase;
-  text-shadow: 2px 2px 5px #903f03;
+  text-shadow: 1px 1px 5px #903f03;
   line-height: 0.9;
+}
+
+.banner_image {
+  float: right;
+  max-width: 480px;
+}
+
+.banner img {
+    margin-top: 30px;
+    display: block;
 }
 
 .button {
@@ -148,8 +148,12 @@ a:hover {
   text-decoration: none;
   font-weight: bold;
   font-size: 15px;
-  text-transform: uppercase;
   margin: 0;
+}
+
+.link a img {
+  float: right;
+  margin: 0px;
 }
 
 .about {
@@ -160,7 +164,7 @@ a:hover {
   min-height: 220px;
 }
 
-.about_hr {
+.about hr {
   width: 100%;
   float: left;
   background-color: #090909;
@@ -170,13 +174,23 @@ a:hover {
 }
 
 .about_content {
+  color: #5d5d5d;
   font-size: 12px;
   font-weight: normal;
   float: left;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.text2_about_content {
+  color: #5d5d5d;
+  font-size: 12px;
+  font-weight: normal;
+  float: left;
+  margin: 0;
 }
 
 .about_content2 {
-
   font-size: 12px;
   color: #fe9b00;
   font-weight: bold;
@@ -191,18 +205,21 @@ a:hover {
 }
 
 .about_content_italic {
+  font-size: 12px;
+  font-weight: normal;
   margin-top: 26px;
   font-style: italic;
+  float: left;
 }
 
-.about_ul {
+.text2_about_content ul {
   margin: 0px;
-  list-style-type: square;
   padding-left: 30px;
 }
 
-.about_li {
+.text2_about_content li {
   margin-bottom: 15px;
+  list-style-image: url(../images/check-mark.jpg);
 }
 
 .text1 {
@@ -288,17 +305,26 @@ a:hover {
 }
 
 .updates_content1 {
+  color: #5d5d5d;
   font-size: 12px;
   width: 660px;
   float: left;
+  line-height: 1.5;
+  margin: 0;
 }
 
 .updates_content2 {
-  min-height: 55px;
   float: left;
 }
 
-.icon {
+.updates_content2 ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+
+.updates_content2 ul li {
   width: 32px;
   height: 32px;
   margin-right: 15px;
@@ -318,6 +344,7 @@ a:hover {
 }
 
 .footer_info {
+  color: #5d5d5d;
   font-size: 12px;
   size: 12px;
   line-height: 1.5;
@@ -326,12 +353,24 @@ a:hover {
   float: left;
 }
 
+.footer_info ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  float: left;
+}
+
+.footer_info ul li {
+  float: left;
+  margin: 0px;
+}
+
 .footer_logo {
   float: right;
   height: 64px;
   margin-top: 20px;
 }
 
-.footer_img {
+.footer_logo img {
   height: 64px;
 }
