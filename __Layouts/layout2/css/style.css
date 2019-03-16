@@ -83,10 +83,6 @@ padding: 5px 15px;
   margin: 0 auto;
 }
 
-.banner div.image img {
-
-}
-
 .white-line_2px {
   height: 2px;
   width: 100%;
@@ -94,7 +90,6 @@ padding: 5px 15px;
   float: left;
 }
 
-/* Здесь что-то не так.. в инспекторе элементов когда наводишься на этот раздел, не подсвечивает цветом его элементы*/
 .container {
   width: 960px;
   margin: 0 auto;
@@ -170,6 +165,76 @@ div.boxes p.title {
   font-size: 20px;
   font-weight: bold;
   margin: 20px 0;
+}
+
+div.boxes p.button {
+  margin-top: 10px;
+  color: #2945c0;
+  padding: 5px 15px;
+  background: linear-gradient(white, #c7c7c7);
+  border-radius: 15px;
+  box-shadow: 0px 1px 2px #3c4762;
+  float: left;
+}
+
+.information {
+  margin: 25px 0 0 0;
+  float: left;
+}
+
+.information__left {
+  float: left;
+  width: 495px;
+}
+
+.information__left div {
+  height: 120px;
+  width: 217px;
+  margin: 0 30px 30px 0;
+  float: left;
+}
+
+.information__left p {
+  font-size: 13px;
+  color: #132445;
+  float: left;
+  margin: 8px 0 0 0;
+}
+
+.information__left p.title {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 15px 0 0 15px;
+}
+
+.information__left img {
+  margin: 0;
+  float: left;
+}
+
+.information__right {
+  float: right;
+  width: 465px;
+  min-height: 200px;
+}
+
+.information__right p {
+  color: #132445;
+  font-size: 13px;
+  margin: 0;
+  line-height: 1.9;
+}
+
+.information__right p.title {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0 0 18px 0;
+}
+
+.information__right p.end {
+  margin-top: 10px;
+  color: #2945c0;
+  text-decoration: underline;
 }
 
 .white-line_1px {
