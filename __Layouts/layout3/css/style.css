@@ -2,6 +2,8 @@ body {
   font-family: Arial, sans-serif;
 }
 
+ul,
+li,
 div {
   box-sizing: border-box;
 }
@@ -29,39 +31,68 @@ a:hover {
   height: 116px;
 }
 
-.header div.top {
+.header .top {
   width: 100%;
   background: #f7f7f7;
-  height: 69px;
+  height: 70px;
+  border-bottom: 1px solid #89883e;
 }
 
-.header div.top div.head {
+.header .top .head {
   width: 960px;
   margin: 0 auto;
+  height: 100%;
 }
 
-.header div.top div.sign-in {
+.header .top .logo {
+  float: left;
+  margin-top: 25px;
+}
+
+.header .top .sign-in {
   float: right;
+  height: 100%;
 }
 
-.header div.top div.sign-in ul {
+.header .top .sign-in ul {
   float: left;
   list-style: none;
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
-.header div.top div.sign-in li {
+.header .top .sign-in li {
   float: left;
   background: #eeeeee;
   margin-right: 1px;
   padding: 30px 20px 0 20px;
+  border-left: 1px solid #ebeaea;
+  border-right: 1px solid #ebeaea;
+  color: #555555;
+  font-weight: bold;
+  font-size: 14px;
+  height: 100%;
 }
 
-.header div.hr {
-  width: 100%;
-  height: 1px;
-  background: #89883e;
+.header .top .sign-in a {
+  float: left;
+}
+
+.header .top .sign-in img {
+  float: right;
+  margin: -2px 0 0 7px;
+}
+
+.header .top .sign-in p {
+  margin: 0;
+  float: left;
+  color: #e70505;
+}
+
+.header .top .sign-in span.count {
+  color: black;
+  margin-left: 3px;
 }
 
 .header div.bottom {
@@ -87,4 +118,28 @@ a:hover {
 .header div.bottom div.menu li {
   float: left;
   margin: 0 40px 0 0;
+}
+
+.banner {
+  min-height: 408px;
+  background: url(../images/background.png) repeat-x center;
+  position: relative;
+}
+
+.banner .banner-img {
+  position: absolute;
+  top: 3px;
+  left: 50%;
+}
+
+.banner .slide-left {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+}
+
+.banner .slide-right {
+  position: absolute;
+  top: 50%;
+  right: 25px;
 }
