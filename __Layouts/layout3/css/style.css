@@ -1,5 +1,9 @@
+@import url("fonts.css");
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  background: #eeeeee;
 }
 
 ul,
@@ -39,7 +43,7 @@ a:hover {
 }
 
 .header .top .head {
-  width: 960px;
+  width: 930px;
   margin: 0 auto;
   height: 100%;
 }
@@ -102,10 +106,12 @@ a:hover {
 }
 
 .header div.bottom div.menu {
-  width: 960px;
+  width: 930px;
   margin: 0 auto;
   font-size: 13px;
   color: white;
+  text-transform: uppercase;
+  font-family: "Myriad Pro";
 }
 
 .header div.bottom div.menu ul {
@@ -121,25 +127,173 @@ a:hover {
 }
 
 .banner {
-  min-height: 408px;
-  background: url(../images/background.png) repeat-x center;
+  min-height: 452px;
+  background: url(../images/banner-background.png) repeat-x center;
   position: relative;
 }
 
-.banner .banner-img {
+.banner__container {
+  width: 960px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 10;
+}
+
+.banner__container .circle1 {
   position: absolute;
   top: 3px;
-  left: 50%;
+  right: 43px;
+}
+
+.banner__container .circle2 {
+  position: absolute;
+  bottom: 75px;
+  right: -75px;
 }
 
 .banner .slide-left {
   position: absolute;
   top: 50%;
   left: 12px;
+  z-index: 11;
 }
 
 .banner .slide-right {
   position: absolute;
   top: 50%;
   right: 25px;
+  z-index: 11;
+}
+
+.container {
+  position: relative;
+  background: #eeeeee;
+}
+
+.container .search-line {
+  width: 100%;
+  height: 43px;
+  background: rgba(255, 255, 255, 0.87);
+  position: absolute;
+  top: -43px;
+  border-bottom: 1px solid white;
+}
+
+.container .search-line .content {
+  width: 960px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.container .content {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.container .content .secondary {
+  float: left;
+  width: 262px;
+  border-right: 1px solid #bebebe;
+  margin: 9px 20px 33px 0;
+}
+
+.container .content .primary {
+
+}
+
+.products-menu {
+  margin: 0;
+  padding: 10px 0 10px 20px;
+  background: #df1f26;
+  color: #eeeeee;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.container .content .secondary ul.menu {
+  list-style: none;
+  margin: 0 0 33px 0;
+  padding: 0;
+  background-image: linear-gradient(to right, #eeeeee, #f3f5f6);
+}
+
+.container .content .secondary .menu li {
+  font-size: 15px;
+  margin: 0 0 0 0;
+  background: url("../images/icons/arrow.png") no-repeat 17px 50%;
+  color: #333333;
+  padding: 12px 0 12px 35px;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.container .content .secondary .menu li.active {
+  background: white url("../images/icons/arrow.png") no-repeat 17px 50%;
+  border-right: 5px solid #df1f26;
+}
+
+.secondary .delivery {
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+.secondary .blog h2 {
+  color: #d52229;
+  font-size: 18px;
+  padding-left: 15px;
+}
+
+.secondary .blog ul {
+  list-style: none;
+  padding-left: 10px;
+  margin-bottom: 50px;
+}
+
+.secondary .blog li {
+  font-size: 12px;
+  font-style: italic;
+  color: #838383;
+  line-height: 18px;
+  padding: 0 35px 20px 45px;
+  background: url("../images/icons/twit.png") no-repeat 0 1px;
+}
+
+.secondary .blog span {
+  color: #d52229;
+}
+
+.secondary .feedback h2 {
+  color: #d52229;
+  font-size: 18px;
+  padding-left: 15px;
+  text-transform: uppercase;
+}
+
+.secondary .feedback .review {
+  margin-left: 12px;
+  background: #f6f3f3;
+  padding: 30px 23px;
+  width: 220px;
+  font-family: "PT Sans";
+  font-style: italic;
+  font-size: 13px;
+  color: #747474;
+  line-height: 19px;
+  position: relative;
+}
+
+.secondary .feedback .review div.dialog {
+  position: absolute;
+  background: url("../images/review.png") no-repeat;
+  left: 40px;
+  bottom: -17px;
+  width: 21px;
+  height: 17px;
+}
+
+.secondary .feedback p {
+  background: url("../images/icons/person.png") no-repeat left;
+  margin: 11px 0 20px 12px;
+  padding: 15px 0 5px 52px;
+  color: #333333;
+  font-size: 13px;
 }
