@@ -66,10 +66,14 @@ a:hover {
   height: 100%;
 }
 
+.header .top .sign-in a {
+  height: 100%;
+}
+
 .header .top .sign-in li {
   float: left;
   background: #eeeeee;
-  margin-right: 1px;
+  margin-right: 2px;
   padding: 30px 20px 0 20px;
   border-left: 1px solid #ebeaea;
   border-right: 1px solid #ebeaea;
@@ -123,7 +127,7 @@ a:hover {
 
 .header div.bottom div.menu li {
   float: left;
-  margin: 0 40px 0 0;
+  margin: 0 44px 0 0;
 }
 
 .banner {
@@ -185,6 +189,47 @@ a:hover {
   margin: 0 auto;
 }
 
+.search-line .content .left {
+  float: left;
+}
+
+.search-line .content .right {
+  float: right;
+}
+
+.search-line .content .right a {
+  float: left;
+  margin: 9px 6px 0 11px;
+}
+
+.search-line .content p {
+  text-transform: uppercase;
+  color: #df1f26;
+  margin: 0;
+  float: left;
+  margin: 13px 20px 0 10px;
+  font-weight: bold;
+}
+
+.search-line .content .search {
+  width: 245px;
+  height: 29px;
+  background: #c9c9c9;
+  border-style: none;
+  padding: 0;
+  float: left;
+  margin: 6px 0;
+}
+
+.search-line .content .button {
+  width: 32px;
+  height: 29px;
+  background: url("../images/search-button.jpg");
+  border-style: none;
+  float: left;
+  margin: 6px 0;
+}
+
 .container .content {
   width: 960px;
   margin: 0 auto;
@@ -195,10 +240,6 @@ a:hover {
   width: 262px;
   border-right: 1px solid #bebebe;
   margin: 9px 20px 33px 0;
-}
-
-.container .content .primary {
-
 }
 
 .products-menu {
@@ -229,6 +270,15 @@ a:hover {
 .container .content .secondary .menu li.active {
   background: white url("../images/icons/arrow.png") no-repeat 17px 50%;
   border-right: 5px solid #df1f26;
+}
+
+.container .content .secondary .menu li:hover {
+  background: white url("../images/icons/arrow.png") no-repeat 17px 50%;
+  border-right: 5px solid #df1f26;
+}
+
+.container .content .secondary .menu a:hover {
+  text-decoration: none;
 }
 
 .secondary .delivery {
@@ -296,4 +346,75 @@ a:hover {
   padding: 15px 0 5px 52px;
   color: #333333;
   font-size: 13px;
+}
+
+.container .content .primary {
+  margin: 2px 0 0 0;
+  float: left;
+}
+
+
+
+
+
+
+
+
+.style-s {
+  background: white;
+  padding: 5px 5px 0 5px;
+  color: #565555;
+  font-size: 13px;
+  margin: 0 8px 8px 0;
+  width: 218px;
+  height: 296px;
+  position: relative;
+}
+
+.style-s img {
+  width: 208px;
+}
+
+.style-s p {
+  margin: 13px 0 5px 7px;
+}
+
+.style-s .buy {
+  border-top: 1px solid #ededed;
+  padding: 2px 0;
+  float: left;
+  /* width: 207px; */
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  bottom: 0;
+}
+
+.style-s .buy .price {
+  border-right: 1px solid #ededed;
+  height: 100%;
+  float: left;
+  width: 90px;
+}
+
+.style-s .buy .price p {
+  color: #3e3f3f;
+  margin: auto;
+}
+
+.style-s .buy .button {
+  float: left;
+  height: 100%;
+  /* margin: 3px 0 0 8px; */
+}
+
+.style-s .buy .button a {
+  float: left;
+  height: 100%;
+}
+
+.style-s .buy .button img {
+  float: left;
+  width: 103px;
+  margin: auto 0;
 }
