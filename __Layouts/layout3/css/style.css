@@ -367,8 +367,8 @@ a:hover {
   font-size: 13px;
   margin: 0 8px 8px 0;
   width: 218px;
-  height: 296px;
-  position: relative;
+  min-height: 296px;
+  /*position: relative;*/
 }
 
 .style-s img {
@@ -386,8 +386,8 @@ a:hover {
   /* width: 207px; */
   width: 100%;
   height: 40px;
-  position: absolute;
-  bottom: 0;
+  /*position: absolute;
+  bottom: 0;*/
 }
 
 .style-s .buy .price {
@@ -403,18 +403,38 @@ a:hover {
 }
 
 .style-s .buy .button {
-  float: left;
+  float: right;
   height: 100%;
   /* margin: 3px 0 0 8px; */
+  margin: auto 0;
 }
 
 .style-s .buy .button a {
   float: left;
   height: 100%;
+  margin: auto 0;
 }
 
 .style-s .buy .button img {
   float: left;
   width: 103px;
   margin: auto 0;
+}
+
+.footer {
+float: left;
+width: 100%;
+}
+
+.footer .content-top {
+  background: url("../images/footer.jpg") repeat-x center;
+  width: 100%;
+  height: 295px;
+}
+
+.footer .content-bottom {
+  background: url("../images/footer-bottom.jpg");
+  width: 100%;
+  height: 50px;
+  float: left;
 }
