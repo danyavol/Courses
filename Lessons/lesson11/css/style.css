@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i');
+@font-face {
+    font-family: "ivan";
+    src: url("../fonts/15533.otf");
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background: url(../images/morocco.png);
+}
+
+div {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 960px;
+  margin: 0px auto;
+}
+
+.head {
+  width: 100%;
+  float: left;
+  padding: 20px 0px;
+  margin-bottom:20px;
+  background: #fff;
+  border-bottom: 2px solid #000;
+  position: fixed;
+  z-index: 1;
+}
+
+.logo {
+  float: left;
+  width: 183px;
+  min-height:100px;
+}
+
+.menu {
+  float: right;
+  margin: 45px 0 0 0;
+  min-height: 10px;
+  width: 660px;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  float: right;
+}
+
+.menu ul li{
+  float: left;
+  position: relative;
+  margin: 0 0 0 15px;
+}
+
+.menu ul li:first-child{
+  margin: 0px;
+}
+
+.menu ul li:before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: red;
+  border-radius: 50%;
+  top: -30px;
+  left: 35%;
+}
+
+.menu ul li a{
+  color: #000;
+  font-size: 1.5rem;
+  text-decoration: none;
+  font-weight: 300;
+  font-family: "ivan";
+  padding: 0px 10px;
+}
+
+
+
+.menu ul li ol {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  position: absolute;
+  display: none;
+  margin-left: -16px;
+}
+
+.menu ul li ol li {
+  display: block;
+  width: 100%;
+
+}
+
+.menu ul li ol li:before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: green;
+  border-radius: 50%;
+
+
+}
+
+
+.menu ul li a:hover {
+  background: #000;
+  color: #fff;
+
+}
+
+.menu ul li:hover ol {
+  display: block;
+}
+
+.menu ul li:hover:before {
+  background: green;
+}
+
+
+
+.banner {
+  position: relative;
+  width: 100%;
+  background: #fb9400 url(../images/slideBg.jpg) repeat-x;
+  float: left;
+  margin-bottom: 20px;
+  margin-top: 177px;
+  padding: 0px;
+
+}
+
+.banner:hover .ask {
+  background: red;
+  cursor: pointer;
+}
+
+.banner:hover .banner_image img {
+  display: none;
+}
+
+.banner_text {
+  width: 480px;
+  float: left;
+  padding: 40px 0 46px 31px;
+  min-height: 380px;
+  box-sizing: border-box;
+}
+
+.banner_image {
+  float: right;
+  margin: 0px;
+  padding: 0px;
+}
+
+.button {
+  width: 100%;
+  background: #090909;
+  padding: 17px 12px;
+  float: left;
+}
+
+.text {
+  float: left;
+  margin: 0px;
+  color: #999898;
+}
+
+.link {
+  float: right;
+  color: #fe9b00;
+  text-decoration: none;
+}
+
+.ask {
+  display: inline-block;
+  width: 20px;
+  height:120px;
+  background: #ff0;
+  position: absolute;
+  left: -20px;
+  bottom: 20%;
+}
+
+
+
+.footer {
+  width: 100%;
+  background: #ccc;
+  float: left;
+  padding: 10px 0px;
+}
+
+
+
+
+.modal {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 999;
+  display: none;
+}
+
+.modal_main {
+  width: 50%;
+  min-height: 500px;
+  background: #fff;
+  margin: 0 auto;
+  top: 15%;
+  position: relative;
+}
+
+.modal_close {
+  width: 20px;
+  min-height: 20px;
+  background: #000;
+  top: -10px;
+  right: -10px;
+  position: absolute;
+}
+
+.slider p {
+  font-family: "Ubuntu";
+  font-weight: 700;
+  font-style: italic;
+  /*letter-spacing: -1px;*/
+  text-indent: 50px;
+  text-transform: uppercase;
+  text-shadow: 10px 10px 2px red, 0px 0px 3px green;
+}
