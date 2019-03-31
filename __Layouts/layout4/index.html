@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Aleo</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+  </head>
+  <body>
+    <!--
+  fonts:
+Niobium       Regular    400
+
+ProximaNova   Bold       700
+              Semibold   600
+              Regular
+              Light      300
+
+Aleo          Italic
+              light
+-----------------------
+Фото с баннера добавлять в html или в css??
+Текст вставлять в параграф или можно сразу в div?
+Писать ли в css полный путь к элементу, который стилизуем. Например: писать .header .right .search form input {}  или достаточно .header .right input {}, если я знаю что это единственный input в блоке .right?
+  -->
+    <div>
+      <div class="header">
+        <div class="left"><a href="#">Aleo!</a></div>
+        <div class="right">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Connect</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <div class="search">
+            <div class="button">
+              <a href="#"><img src="images/icons/icon-search-white.png" alt=""></a>
+            </div>
+            <form>
+              <input type="text" value="Search Something.." onfocus="if (this.value == 'Search Something..') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search Something..';}">
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="banner">
+        <img src="images/banner-background.png" alt="">
+        <div class="name">
+          <div class="title"><p>Inspiration</p></div>
+
+        </div>
+      </div>
+      <div class="container">
+        <div class="content-left">
+          <div class="navigation"></div>
+          <div class="left">
+            <div class="post-type-1"></div>
+            <div class="post-type-2"></div>
+          </div>
+          <div class="right">
+            <div class="post-type-1"></div>
+            <div class="post-type-1"></div>
+          </div>
+        </div>
+        <div class="content-right">
+
+        </div>
+      </div>
+      <div class="footer">
+
+      </div>
+    </div>
+  </body>
+</html>

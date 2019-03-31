@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
+}
+
+a:hover {
+  color: inherit;
+  text-decoration: underline;
+}
+
+body {
+  background: #282828;
+}
+
+body>div {
+  margin: auto;
+  width: 1280px;
+  position: relative;
+}
+
+.header {
+  float: left;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+.header .left {
+  float: left;
+  margin: 17px 0 0 33px;
+  font-family: "Niobium";
+  font-size: 30px;
+  color: white;
+}
+
+.header .left a:hover {
+  text-decoration: none;
+}
+
+.header .right {
+  float: right;
+  margin: 15px 30px 0 0;
+  font-family: "ProximaNova";
+  font-size: 18px;
+  color: white;
+}
+
+.header .right ul {
+  float: left;
+  list-style: none;
+  margin: 10px 0 0 0;
+  padding: 0;
+}
+
+.header .right ul li {
+  float: left;
+  margin-right: 32px;
+}
+
+.header .right ul li div {
+  margin: 0;
+  float: left;
+  width: calc(100% + 10px);
+}
+
+.header .right ul li a:hover {
+  font-weight: bold;
+  border-bottom: 2px solid white;
+  text-decoration: none;
+}
+
+.header .right .search {
+  float: right;
+  margin-left: 14px;
+  padding: 0 17px 0 17px;
+  border: 1px solid white;
+  border-radius: 20px;
+  width: 225px;
+}
+
+.header .right .search .button {
+  margin: 12px 16px 0 0;
+  float: left;
+}
+
+.header .right form {
+  float: right;
+}
+
+.header .right input {
+  width: 161px;
+  height: 35px;
+  background: none;
+  border: 1px;
+  color: white;
+}
+
+.header .right input:focus {
+  outline: none;
+}
+
+.banner {
+  position: relative;
+  float: left;
+  width: 100%:
+}
+
+.banner img {
+  /* width: 100%; */
+}
+
+.banner .name {
+  position: absolute;
+  width: 100%;
+  height: 276px;
+  background: rgba(0, 0, 0, 0.3);
+  bottom: 0;
+  color: white;
+  font-family: "ProximaNova";
+}
+
+.banner .title {
+  width: 128px;
+  height: 30px;
+  background: #10a6fc;
+  position: absolute;
+  left: 35px;
+  top: 0;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+
+.banner .title p {
+  margin: 7px 0 0 13px;
+}
+
+.container {
+  margin: 16px 40px 16px 32px;
+  float: left;
+  width: calc(100% - 72px);
+}
+
+.container .content-left {
+  width: 803px;
+  margin: 0 16px 0 0;
+  float: left;
+}
+
+.
+
+.container .content-right {
+  width: 387px;
+  float: right;
+}
