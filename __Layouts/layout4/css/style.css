@@ -146,6 +146,33 @@ body>div {
   margin: 7px 0 0 13px;
 }
 
+.banner .name .content {
+  margin: 46px 0 0 35px;
+}
+
+.banner .name .content p:first-child {
+  font-family: "Aleo";
+  font-size: 42px;
+  font-style: italic;
+  margin: 0 0 12px 0;
+  width: 850px;
+}
+
+.banner .name .content p {
+  font-size: 16px;
+  margin: 0 0 18px 0;
+  width: 450px;
+}
+
+.banner .name .content div {
+  padding: 4px 12px;
+  border: 1px solid white;
+  float: left;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 300;
+}
+
 .container {
   margin: 16px 40px 16px 32px;
   float: left;
@@ -158,9 +185,335 @@ body>div {
   float: left;
 }
 
-.
+.container .content-left .post {
+  width: 100%;
+  height: 354px;
+  position: relative;
+  background: white;
+}
+
+.container .content-left .post .navigation {
+  width: 100%;
+  height: 60px;
+  background: #3d3c3c;
+  position: absolute;
+}
+
+.container .content-left .post .navigation ul {
+  list-style: none;
+  float: left;
+  margin: 21px 0 0 0;
+  padding: 0 0 0 29px;
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: "ProximaNova";
+  text-transform: uppercase;
+}
+
+.container .content-left .post .navigation ul li {
+  float: left;
+  padding-right: 48px;
+}
+
+.container .content-left .post .navigation img {
+  float: right;
+  margin: 26px 28px 0 0;
+}
+
+.container .content-left .post .title {
+  position: absolute;
+  left: 28px;
+  top: 85px;
+  background: #d21e72;
+  padding: 5px 14px;
+  font-size: 17px;
+  font-family: "ProximaNova";
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.container .content-left .post .content {
+  float: left;
+  margin-top: 95px;
+}
+
+.container .content-left .post .content p {
+  font-family: "Aleo";
+  font-weight: 300;
+  font-size: 34px;
+  color: #d21e72;
+  float: left;
+  width: 480px;
+  margin: 50px 0 0 85px;
+}
+
+.container .content-left .post .content p:before {
+  content: url("../images/icons/icon-kavichki.png");
+  position: absolute;
+  left: 27px;
+}
+
+.container .content-left .post .content img {
+  float: right;
+}
+
+.container .content-left .post .content .read {
+  float: left;
+  text-transform: uppercase;
+  padding: 4px 12px;
+  border: 1px solid #d21e72;
+  color: #d21e72;
+  font-family: "ProximaNova";
+  font-weight: 300;
+  font-size: 20px;
+  margin: 27px 0 0 85px;
+}
+
+.container .content-left .left {
+  width: 393px;
+  margin-right: 17px;
+  float: left;
+  font-family: "ProximaNova";
+}
+
+.container .content-left .right {
+  width: 393px;
+  float: right;
+}
+
+.post-type-1 {
+  background: white;
+  position: relative;
+  margin-top: 16px;
+}
+
+.container .content-left .post-title {
+  font-family: "ProximaNova";
+  text-transform: uppercase;
+  color: white;
+  position: absolute;
+  font-weight: 600;
+  font-size: 17px;
+  padding: 8px 10px;
+  left: 28px;
+}
+
+.container .content-left .post-name {
+  font-family: "Aleo";
+  font-weight: 300;
+  font-size: 23px;
+  color: #282828;
+  padding: 20px 30px 8px 25px;
+  margin: 0;
+}
+
+.container .content-left .post-name-nojpg {
+  font-family: "Aleo";
+  font-weight: 300;
+  font-size: 23px;
+  color: #282828;
+  padding: 65px 30px 8px 25px;
+  margin: 0;
+}
+
+.container .content-left .post-preview-nojpg {
+  font-family: "ProximaNova";
+  font-size: 16px;
+  font-weight: 300;
+  color: #8c8a8a;
+  padding: 7px 30px 30px 25px;
+  margin: 0;
+}
+
+.container .content-left .post-preview {
+  font-family: "ProximaNova";
+  font-size: 16px;
+  font-weight: 300;
+  color: #8c8a8a;
+  padding: 7px 30px 20px 25px;
+  margin: 0;
+}
+
+.container .content-left .post-read {
+  font-family: "ProximaNova";
+  font-size: 19px;
+  font-weight: 300;
+  color: white;
+  background: #3d3c3c;
+  height: 60px;
+  padding: 14px 0 0 28px;
+}
+
+.container .content-left .post-read div:first-child {
+  border: 1px solid white;
+  padding: 4px 12px;
+  float: left;
+  margin: 0 15px 0 0;
+  text-transform: uppercase;
+}
+
+.container .content-left .post-read div:last-child {
+  border: 1px solid white;
+  float: left;
+  padding: 4.2px 11px;
+}
+
+.container .content-left .post-read div:last-child img {
+  margin: 2.8px 11px 0 0;
+  float: left;
+}
+
+.container .content-left .post-read div:last-child span {
+  line-height: 16px;
+}
+
+.orange  {
+  background: #ff9b00;
+}
+
+.green {
+  background: #6ab40b;
+}
+
+.gray {
+  background: #8598a0;
+}
+
+.container .content-left .photo {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+}
+
+.container .content-left .photo-name {
+  color: white;
+  font-family: "Aleo";
+  font-size: 23px;
+  font-weight: 300;
+  padding: 20px 0 15px 25px;
+  margin: 0;
+}
+
+.container .content-left .photo-name a:hover {
+  text-decoration: none;
+}
 
 .container .content-right {
   width: 387px;
   float: right;
+}
+
+.container .content-right .news {
+  width: 100%;
+  height: 425px;
+  background: white;
+  font-family: "ProximaNova";
+}
+
+.container .content-right .news .navigation {
+  width: 100%;
+  height: 60px;
+  background: #3d3c3c;
+  float: left;
+  color: #e9e4e4;
+  font-size: 18px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.container .content-right .news .navigation ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  float: left;
+
+}
+
+.container .content-right .news .navigation ul li {
+  float: left;
+  padding: 20px 47px;
+  height: 60px;
+  width: 50%;
+}
+
+.container .content-right .news .navigation ul li:hover {
+  color: #3d3c3c;
+  background: #e9e4e4;
+}
+
+.container .content-right .news .content {
+  float: left;
+  width: 100%;
+  height: 365px;
+  font-size: 16px;
+}
+
+.container .content-right .news .content ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.container .content-right .news .content li {
+  height: calc( 365px / 6);
+  width: 100%;
+  border-bottom: 1px solid #e2e1e1;
+  padding: 21px 0 0 30px;
+  color: #727171;
+}
+
+.container .content-right .news .content li:hover {
+  background: #fafafa;
+}
+
+.container .content-right .news .content li:last-child {
+  border-bottom: 0px;
+}
+
+.container .content-right .news .content li span:first-child {
+  font-weight: 600;
+  color: #3d3c3c;
+  text-transform: uppercase;
+}
+
+.container .content-right .news .content li span:last-child {
+  font-weight: bold;
+  color: #e2e1e1;
+}
+
+.load-more {
+  width: 100%;
+  background: #3d3c3c;
+  height: 60px;
+  float: left;
+  padding: 19.5px 0 0 313px;
+  margin: 18px 0 0 0;
+}
+
+.load-more img {
+  float: left;
+  margin: 3.5px 15px 0 0;
+}
+
+.load-more p {
+  font-family: "ProximaNova";
+  font-size: 19px;
+  font-weight: 300;
+  color: white;
+  margin: 0;
+  float: left;
+  text-transform: uppercase;
+}
+
+.footer {
+  width: 100%;
+  float: left;
+}
+
+.footer div {
+  position: relative;
+  margin: 0 auto;
 }

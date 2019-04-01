@@ -19,10 +19,11 @@ ProximaNova   Bold       700
 
 Aleo          Italic
               light
------------------------
+- - - - - - - - - - - - - - - - - - - - - - -
 Фото с баннера добавлять в html или в css??
 Текст вставлять в параграф или можно сразу в div?
 Писать ли в css полный путь к элементу, который стилизуем. Например: писать .header .right .search form input {}  или достаточно .header .right input {}, если я знаю что это единственный input в блоке .right?
+Как быть когда один пост отличается от другого, как правильно застилизовать такие моменты(когда нужно изменить буквально одно свойство)?
   -->
     <div>
       <div class="header">
@@ -48,27 +49,103 @@ Aleo          Italic
         <img src="images/banner-background.png" alt="">
         <div class="name">
           <div class="title"><p>Inspiration</p></div>
-
+          <div class="content">
+            <p>Sara Maitland: 'My subconscious was cleverer than my conscious in choosing to live alone'</p>
+            <p>How did you come to live the solitary life? Was it a sudden decision or did it evolve gradually?</p>
+            <a href="#"><div>Read more</div></a>
+          </div>
         </div>
       </div>
       <div class="container">
         <div class="content-left">
-          <div class="navigation"></div>
+          <div class="post">
+            <div class="navigation">
+              <ul>
+                <li><a href="#">Lifestyle</a></li>
+                <li><a href="#">Techno</a></li>
+                <li><a href="#">Science</a></li>
+                <li><a href="#">Education</a></li>
+                <li><a href="#">Nature</a></li>
+                <li><a href="#">Tips</a></li>
+              </ul>
+              <a href="#"><img src="images/icons/icon_dots.png" alt=""></a>
+            </div>
+            <div class="title">Talking points</div>
+            <div class="content">
+              <p>Call me naive, politicians, but how about saying what you really think?</p>
+              <img src="images/photo0.jpg" alt="">
+              <a href="#"><div class="read">Read more</div></a>
+            </div>
+
+          </div>
           <div class="left">
-            <div class="post-type-1"></div>
-            <div class="post-type-2"></div>
+            <div class="post-type-1">
+              <div class="post-title green">Travel</div>
+              <img src="images/photo1.jpg" alt="">
+              <p class="post-name">Embers Camping Beaulieu, New Forest</p>
+              <p class="post-preview">As the name suggests, it's all about campfire at Embers Camping Beaulie, where every...</p>
+              <div class="post-read">
+                <a href="#"><div>Read more</div></a>
+                <a href="#"><div><img src="images/icons/icon-msg.png" alt=""><span>1</span></div></a>
+              </div>
+            </div>
+            <div class="post-type-1">
+              <div class="post-title gray">Photography</div>
+              <img src="images/photo3.jpg" alt="">
+              <div class="photo">
+                <p class="photo-name"><a href="#">Instagram snapshots:<br>Rachel Kristensen in British<br>Columbia, Canada</a></p>
+              </div>
+            </div>
           </div>
           <div class="right">
-            <div class="post-type-1"></div>
-            <div class="post-type-1"></div>
+            <div class="post-type-1">
+              <div class="orange post-title orange">Science</div>
+              <img src="images/photo2.jpg" alt="">
+              <p class="post-name">Fighting bugs width bugs: this time it's personal</p>
+              <p class="post-preview">A possible solution to one of the world's most pressing problems might be lurking in my...</p>
+              <div class="post-read">
+                <a href="#"><div>Read more</div></a>
+                <a href="#"><div><img src="images/icons/icon-msg.png" alt=""><span>1</span></div></a>
+              </div>
+            </div>
+            <div class="post-type-1">
+              <div class="post-title green">Travel</div>
+              <p class="post-name-nojpg">10 of the best museums in Europe... that you've probably never heard of</p>
+              <p class="post-preview-nojpg">Head to Europe on a city break and a museum trip os likely, but why not take a detour from the big hitters and try one of these excellent alternatives instead?</p>
+              <div class="post-read">
+                <a href="#"><div>Read more</div></a>
+                <a href="#"><div><img src="images/icons/icon-msg.png" alt=""><span>1</span></div></a>
+              </div>
+            </div>
+          </div>
+          <div class="load-more">
+            <img src="images/icons/icon-reload.png" alt="">
+            <p>Load more</p>
           </div>
         </div>
         <div class="content-right">
-
+          <div class="news">
+            <div class="navigation">
+              <ul>
+                <li><a href="#">Trending</a></li>
+                <li><a href="#">Editor's pick</a></li>
+              </ul>
+            </div>
+            <div class="content">
+              <ul>
+                <li><span>Fashion</span> <span>//</span> A Lesson in Summer Styling</li>
+                <li><span>Fashion</span> <span>//</span> How to Wear Broderie Anglaise</li>
+                <li><span>Travel</span> <span>//</span> A Famile Adventure</li>
+                <li><span>Tech</span> <span>//</span> Malware is Not Only About Virus</li>
+                <li><span>Science</span> <span>//</span> The First Space Walk</li>
+                <li><span>Film</span> <span>//</span> The Last of the Silent Movie Stars</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
       <div class="footer">
-
+        <div>Made with <img src="images/icons/icon-heart.png" alt=""> by Krisna</div>
       </div>
     </div>
   </body>
