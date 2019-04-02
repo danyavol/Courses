@@ -20,10 +20,7 @@ ProximaNova   Bold       700
 Aleo          Italic
               light
 - - - - - - - - - - - - - - - - - - - - - - -
-Фото с баннера добавлять в html или в css??
 Текст вставлять в параграф или можно сразу в div?
-Писать ли в css полный путь к элементу, который стилизуем. Например: писать .header .right .search form input {}  или достаточно .header .right input {}, если я знаю что это единственный input в блоке .right?
-Как быть когда один пост отличается от другого, как правильно застилизовать такие моменты(когда нужно изменить буквально одно свойство)?
   -->
     <div>
       <div class="header">
@@ -140,6 +137,54 @@ Aleo          Italic
                 <li><span>Science</span> <span>//</span> The First Space Walk</li>
                 <li><span>Film</span> <span>//</span> The Last of the Silent Movie Stars</li>
               </ul>
+            </div>
+          </div>
+          <div class="weather">
+            <div class="name">Weather</div>
+            <div class="container">
+              <p>Tuesday<br>26 May 2015</p>
+              <div class="now">
+                <div>
+                  <div>
+                    <p>15:00</p>
+                    <p>66&deg;F</p>
+                  </div>
+                </div>
+                <img src="images/icons/icon-weather-sun.png" alt="">
+              </div>
+              <div class="time">
+                <div>
+                  <div>
+                    <p>15:00</p>
+                    <p>66&deg;F</p>
+                  </div>
+                  <img src="images/icons/icon-weather-sun-small.png">
+                </div>
+                <div>
+                  <div>
+                    <p>15:00</p>
+                    <p>66&deg;F</p>
+                  </div>
+                  <img src="images/icons/icon-weather-sun-small.png">
+                </div>
+                <div>
+                  <div>
+                    <p>18:00</p>
+                    <p>66&deg;F</p>
+                  </div>
+                  <img src="images/icons/icon-weather-night.png">
+                </div>
+                <div>
+                  <div>
+                    <p>21:00</p>
+                    <p>66&deg;F</p>
+                  </div>
+                  <img src="images/icons/icon-weather-night.png">
+                </div>
+              </div>
+              <div>
+                <input type="text" value="LONDON" onfocus="if (this.value == 'LONDON') {this.value = '';}" onblur="if (this.value == '') {this.value = 'LONDON';}">
+              </div>
             </div>
           </div>
         </div>

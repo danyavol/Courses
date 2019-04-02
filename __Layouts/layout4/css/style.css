@@ -429,12 +429,13 @@ body>div {
   padding: 0;
   margin: 0;
   float: left;
-
+  width: 100%;
+  text-align: center;
 }
 
 .container .content-right .news .navigation ul li {
   float: left;
-  padding: 20px 47px;
+  padding: 20px 0px;
   height: 60px;
   width: 50%;
 }
@@ -482,6 +483,97 @@ body>div {
 .container .content-right .news .content li span:last-child {
   font-weight: bold;
   color: #e2e1e1;
+}
+
+.weather {
+  background: white;
+  width: 100%;
+  height: 628px;
+  margin-top: 14px;
+  font-family: "ProximaNova";
+}
+
+.weather .name {
+  width: 100%;
+  height: 60px;
+  background: #3d3c3c;
+  padding: 20px 153px;
+  color: #e9e4e4;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.weather .container {
+  padding: 28px 25px;
+  width: 100%;
+  margin: 0;
+}
+
+.weather .container>p {
+  margin: 0;
+  color: #3d3c3c;
+  font-size: 23px;
+}
+
+.weather .container .now {
+  border: 1px solid #fbcb72;
+  margin: 23px 0 34px 0;
+  width: 100%;
+  background: #fdf8ef;
+  height: 205px;
+}
+
+.weather .container .now>div {
+  float: left;
+  width: 40%;
+}
+
+.weather .container .now>div p:first-child {
+  color: #c9c9c9;
+  font-size: 23px;
+  float: left;
+  margin: 52px 0 0 38px;
+}
+
+.weather .container .now>div p:last-child {
+  color: #3d3c3c;
+  font-size: 50px;
+  float: left;
+  margin: 0 0 0 35px;
+}
+
+.weather .container .now img {
+  float: right;
+  margin: 29px 33px 0 0;
+}
+
+.weather .container .time {
+  float: left;
+  margin: 0 0 30px 0;
+}
+
+.weather .container .time>div {
+  width: 80px;
+  height: 125px;
+  border-right: 1px dotted #8c8a8a;
+  float: left;
+}
+
+.weather .container .time>div:last-child {
+  border-right: 0;
+}
+
+.weather .container .time p:first-child {
+  margin: 0;
+}
+
+.weather .container .time p:last-child {
+  margin: 0;
+}
+
+.weather .container .time img {
+
 }
 
 .load-more {
