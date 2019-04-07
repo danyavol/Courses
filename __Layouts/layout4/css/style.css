@@ -489,7 +489,7 @@ body>div {
   background: white;
   width: 100%;
   height: 628px;
-  margin-top: 14px;
+  margin: 14px 0;
   font-family: "ProximaNova";
 }
 
@@ -550,13 +550,13 @@ body>div {
 
 .weather .container .time {
   float: left;
-  margin: 0 0 30px 0;
+  margin: 0 0 32px 0;
 }
 
 .weather .container .time>div {
-  width: 80px;
+  width: 84.25px;
   height: 125px;
-  border-right: 1px dotted #8c8a8a;
+  border-right: 2px dotted #8c8a8a;
   float: left;
 }
 
@@ -564,16 +564,88 @@ body>div {
   border-right: 0;
 }
 
-.weather .container .time p:first-child {
-  margin: 0;
+.weather .container .time>div p:first-child {
+  margin: 20px 0 0 0;
+  color: #c9c9c9;
+  font-size: 18px;
 }
 
-.weather .container .time p:last-child {
-  margin: 0;
+.weather .container .time>div p:last-child {
+  margin: 0 0 10px 0;
+  color: #3d3c3c;
+  font-size: 21px;
+}
+
+.weather .container .time>div>div {
+  margin-left: 20px;
 }
 
 .weather .container .time img {
+  margin: 0 auto;
+}
 
+.weather .container .search {
+  background: #dad8d8;
+  width: 100%;
+  height: 41px;
+  float: left;
+}
+
+.weather .container form input {
+  float: left;
+  margin: 9.5px 0 0 17px;
+  border: 0;
+  font-size: 18px;
+  color: #3d3c3c;
+  background: none;
+}
+
+.weather .container form input:focus {
+  outline: none;
+}
+
+.weather .container form img{
+  float: right;
+  margin: 12px 26px 0 0;
+}
+
+.gallery {
+  width: 100%;
+  min-height: 325px;
+  background: white;
+}
+
+.gallery .name {
+  width: 100%;
+  height: 60px;
+  background: #3d3c3c;
+  color: #e9e4e4;
+  font-family: "ProximaNova";
+  font-size: 18px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.gallery .content {
+  width: 100%;
+  height: calc(100% - 60px);
+  padding: 12px 14px;
+}
+
+.gallery img {
+  margin: 0 5px 7px 0;
+  width: 112px;
+  height: 112px;
+  display: inline-block;
+}
+
+.gallery img:nth-child(3n) {
+  margin: 0 0 7px 0;
+  width: 112px;
+  height: 112px;
+  display: inline-block;
 }
 
 .load-more {
@@ -606,6 +678,12 @@ body>div {
 }
 
 .footer div {
-  position: relative;
-  margin: 0 auto;
+  font-size: 22px;
+  color: white;
+  font-family: "ProximaNova";
+  margin: 45px 41%;
+}
+
+.footer div img {
+  display: inline-block;
 }
