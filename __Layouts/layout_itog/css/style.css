@@ -1,0 +1,111 @@
+@import url(../fontrs/helvetica_neue/helvetica_neue.css);
+@import url(../fonts/roboto/roboto.css);
+@import url(../fonts/droidserif/droidserif.css);
+
+body {
+  background: white;
+  font-family: "Droid Serif";
+  font-size: 14px;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: inherit;
+}
+
+.header {
+  float: left;
+  width: 100%;
+}
+
+.w940 {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.header .top {
+  float: left;
+  width: 100%;
+  min-height: 116px;
+}
+
+.header .top .left {
+  float: left;
+  margin: 12px 0 0 4px;
+}
+
+.header .top .right {
+  float: right;
+}
+
+.header .top .right .menu {
+  float: left;
+  list-style: none;
+  padding: 0 20px;
+  margin: 0;
+  background: #3d3d3d;
+  color: white;
+  font-family: "Roboto";
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.header .top .right .menu {
+}
+
+.header .top .right .menu li{
+  float: left;
+  padding: 6px 9px;
+}
+
+.header .bottom {
+  float: left;
+  width: 100%;
+}
+
+
+.header .bottom .navigation {
+  float: left;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: url(../images/h_pattern1.png);
+  color: #dddddd;
+  font-family: "Roboto";
+  font-size: 13px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top: 1px solid #565656;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.75);
+}
+
+.header .bottom .navigation li {
+  float: left;
+  border-right: 1px solid #2d2d2d;
+  border-left: 1px solid #565656;
+}
+
+.header .bottom .navigation li:first-child {
+  border-left: none;
+}
+
+.header .bottom .navigation li:last-child {
+  border-right: none;
+}
+
+.header .bottom .navigation li a {
+  float: left;
+  padding: 20px 20px;
+}
