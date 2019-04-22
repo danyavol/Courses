@@ -8,6 +8,7 @@ body {
   font-size: 14px;
 }
 
+
 div {
   box-sizing: border-box;
 }
@@ -39,6 +40,7 @@ a:visited {
   float: left;
   width: 100%;
   min-height: 116px;
+  position: relative;
 }
 
 .header .top .left {
@@ -48,6 +50,7 @@ a:visited {
 
 .header .top .right {
   float: right;
+
 }
 
 .header .top .right .menu {
@@ -62,50 +65,148 @@ a:visited {
   border-bottom-left-radius: 5px;
 }
 
-.header .top .right .menu {
-}
-
 .header .top .right .menu li{
   float: left;
   padding: 6px 9px;
 }
 
+.header .top .search {
+  position: absolute;
+  bottom: 0;
+  right: 5px;
+  background: #404040;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 10px 10px 5px 10px;
+
+}
+
+.header .top .search form {
+  background: #5e5b5b;
+  min-width: 226px;
+  min-height: 30px;
+  border-radius: 2px;
+  box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.75);
+}
+
+.header .search form input {
+  background: 0;
+  font-family: "Roboto";
+  color: white;
+  outline: none;
+  border: 0;
+}
+
+.header .search form input:first-child {
+  width: 170px;
+  margin-left: 16px;
+  margin-top: 7px;
+}
+
+.header .search form input:last-child {
+  float: right;
+  background: url(../images/nav_search.png) no-repeat;
+  width: 20px;
+  height: 21px;
+  margin-right: 11px;
+  margin-top: 6px;
+}
+
 .header .bottom {
   float: left;
   width: 100%;
+  position: relative;
 }
 
+.header .bottom .bg_line {
+  width: 100%;
+  height: 41px;
+  background: url(../images/h_pattern1.png);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.75);
+  position: absolute;
+  top: 8px;
+}
 
 .header .bottom .navigation {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+
+.header .bottom .nav_inner {
+  float: left;
+  width: 100%;
+  background: url(../images/pattern_def.png);
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.75);
+  position: absolute;
+}
+
+.header .bottom .menu {
   float: left;
   list-style: none;
   padding: 0;
   margin: 0;
-  background: url(../images/h_pattern1.png);
   color: #dddddd;
   font-family: "Roboto";
+  text-shadow: 0 1px 1px black;
   font-size: 13px;
-  border-top-right-radius: 5px;
   border-top-left-radius: 5px;
-  border-top: 1px solid #565656;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.75);
+
 }
 
-.header .bottom .navigation li {
+.header .bottom .menu li {
   float: left;
   border-right: 1px solid #2d2d2d;
   border-left: 1px solid #565656;
+  background: url(../images/arr_down.png) no-repeat right 3px center;
 }
 
-.header .bottom .navigation li:first-child {
+.header .bottom .menu li:first-child {
   border-left: none;
+  border-top-left-radius: 5px;
 }
 
-.header .bottom .navigation li:last-child {
-  border-right: none;
+.header .bottom .menu li:last-child {
+  width: 1px;
+  border-right: 0;
+  height: 54.55px;
 }
 
-.header .bottom .navigation li a {
+.header .bottom .menu li a {
   float: left;
   padding: 20px 20px;
+}
+
+.header .bottom .menu li a:hover {
+  text-decoration: none;
+}
+
+.header .bottom .menu li:hover {
+  background: url(../images/pattern_active.png);
+}
+
+.header .bottom .social {
+
+}
+
+.header .bottom .social ul {
+  list-style: none;
+  margin: 13px 22px 0 0;
+  padding: 0;
+  float: right;
+}
+
+.header .bottom .social ul li {
+  float: left;
+  margin-left: 8px;
+}
+
+.header .bottom .lower_line {
+  position: absolute;
+  width: 100%;
+  height: 10px;
+  bottom: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.35), rgba(255, 255, 255, 0.25));
 }
