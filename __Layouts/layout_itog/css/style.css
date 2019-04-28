@@ -26,9 +26,9 @@ a:visited {
   color: inherit;
 }
 
-.header {
-  float: left;
+header {
   width: 100%;
+  margin-bottom: 27px;
 }
 
 .w940 {
@@ -36,25 +36,24 @@ a:visited {
   margin: 0 auto;
 }
 
-.header .top {
-  float: left;
-  width: 100%;
+header .top {
+  display: flex;
+  justify-content: space-between;
+  width: 940px;
+  margin: 0 auto;
   min-height: 116px;
   position: relative;
 }
 
-.header .top .left {
-  float: left;
+header .top .left {
   margin: 12px 0 0 4px;
 }
 
-.header .top .right {
-  float: right;
-
+header .top .right {
 }
 
-.header .top .right .menu {
-  float: left;
+header .top .right .menu {
+
   list-style: none;
   padding: 0 20px;
   margin: 0;
@@ -65,12 +64,12 @@ a:visited {
   border-bottom-left-radius: 5px;
 }
 
-.header .top .right .menu li{
-  float: left;
+header .top .right .menu li{
+  display: inline-block;
   padding: 6px 9px;
 }
 
-.header .top .search {
+header .top .search {
   position: absolute;
   bottom: 0;
   right: 5px;
@@ -81,7 +80,7 @@ a:visited {
 
 }
 
-.header .top .search form {
+header .top .search form {
   background: #5e5b5b;
   min-width: 226px;
   min-height: 30px;
@@ -89,7 +88,7 @@ a:visited {
   box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.75);
 }
 
-.header .search form input {
+header .search form input {
   background: 0;
   font-family: "Roboto";
   color: white;
@@ -97,13 +96,13 @@ a:visited {
   border: 0;
 }
 
-.header .search form input:first-child {
+header .search form input:first-child {
   width: 170px;
   margin-left: 16px;
   margin-top: 7px;
 }
 
-.header .search form input:last-child {
+header .search form input:last-child {
   float: right;
   background: url(../images/nav_search.png) no-repeat;
   width: 20px;
@@ -112,101 +111,176 @@ a:visited {
   margin-top: 6px;
 }
 
-.header .bottom {
-  float: left;
+header .bottom {
   width: 100%;
   position: relative;
 }
 
-.header .bottom .bg_line {
+header .bottom .bg_line {
   width: 100%;
   height: 41px;
   background: url(../images/h_pattern1.png);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.75);
   position: absolute;
   top: 8px;
+  z-index: -1;
 }
 
-.header .bottom .navigation {
-  position: relative;
+header .bottom .navigation {
+  display: flex;
+  justify-content: space-between;
   width: 940px;
   margin: 0 auto;
-}
-
-.header .bottom .nav_inner {
-  float: left;
-  width: 100%;
   background: url(../images/pattern_def.png);
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.75);
-  position: absolute;
 }
 
-.header .bottom .menu {
-  float: left;
+header .bottom .menu {
   list-style: none;
   padding: 0;
   margin: 0;
   color: #dddddd;
   font-family: "Roboto";
   text-shadow: 0 1px 1px black;
-  font-size: 13px;
+  font-size: 0;
   border-top-left-radius: 5px;
 
 }
 
-.header .bottom .menu li {
-  float: left;
+header .bottom .menu li {
+  font-size: 13px;
+  display: inline-flex;
   border-right: 1px solid #2d2d2d;
   border-left: 1px solid #565656;
-  background: url(../images/arr_down.png) no-repeat right 3px center;
+  /*background: url(../images/arr_down.png) no-repeat right 3px center;*/
 }
 
-.header .bottom .menu li:first-child {
+header .bottom .menu li:first-child {
   border-left: none;
   border-top-left-radius: 5px;
 }
 
-.header .bottom .menu li:last-child {
-  width: 1px;
-  border-right: 0;
-  height: 54.55px;
-}
-
-.header .bottom .menu li a {
-  float: left;
+header .bottom .menu li a {
   padding: 20px 20px;
 }
 
-.header .bottom .menu li a:hover {
+header .bottom .menu li a:hover {
   text-decoration: none;
 }
 
-.header .bottom .menu li:hover {
+header .bottom .menu li:hover {
   background: url(../images/pattern_active.png);
 }
 
-.header .bottom .social {
+header .bottom .social {
 
 }
 
-.header .bottom .social ul {
+header .bottom .social ul {
   list-style: none;
   margin: 13px 22px 0 0;
   padding: 0;
   float: right;
 }
 
-.header .bottom .social ul li {
+header .bottom .social ul li {
   float: left;
   margin-left: 8px;
 }
 
-.header .bottom .lower_line {
+header .bottom .lower_line {
   position: absolute;
   width: 100%;
   height: 10px;
   bottom: 0;
   background: linear-gradient(to top, rgba(0, 0, 0, 0.35), rgba(255, 255, 255, 0.25));
+}
+
+.banner {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.banner .line {
+  width: 100%;
+  height: 4px;
+  background: #454444;
+  border-top: 1px solid #4e4d4d;
+  margin: 3px 0;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.6);
+}
+
+.banner .content {
+  position: relative;
+  width: 100%;
+  min-height: 392px;
+  background: url(../images/b_pattern3.png);
+  display: flex;
+}
+
+.banner .left {
+  width: 540px;
+  padding: 13px 0 13px 13px;
+}
+
+.banner .left img {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.75);
+}
+
+.banner .right {
+  display: flex;
+  flex-flow: wrap;
+  width: 400px;
+  padding: 13px 0 13px 0;
+}
+
+.banner .content .text {
+  color: white;
+  width: 340px;
+  margin-left: 25px;
+}
+
+.banner .content .text h2 {
+  margin: 35px 0 15px 0;
+  font-size: 24px;
+  font-family: "Roboto";
+  font-weight: normal;
+}
+
+.banner .content .photos {
+  align-self: flex-end;
+  margin-bottom: 26px;
+  min-height: 93px;
+  width: 100%;
+  background: #1f1e1e;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  padding-left: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+
+.banner .lenta {
+  width: 19px;
+  height: 107px;
+  position: absolute;
+  bottom: 25px;
+  right: -19px;
+}
+
+.banner .lenta .bg {
+  background: #1f1e1e;
+  height: 93px;
+  width: 100%;
+  /*box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); */
+}
+
+.banner .lenta .ugol {
+  width: 100%;
+  height: 11px;
+  background: url(../images/banner_lenta.png) no-repeat bottom;
 }
