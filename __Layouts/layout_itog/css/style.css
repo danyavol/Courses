@@ -198,9 +198,16 @@ header .bottom .lower_line {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.35), rgba(255, 255, 255, 0.25));
 }
 
-.banner {
+main {
   width: 940px;
   margin: 0 auto;
+}
+
+
+
+.banner {
+  width: 100%;
+  margin-bottom: 28px;
 }
 
 .banner .line {
@@ -262,8 +269,6 @@ header .bottom .lower_line {
   align-items: center;
 }
 
-
-
 .banner .lenta {
   width: 19px;
   height: 107px;
@@ -283,4 +288,50 @@ header .bottom .lower_line {
   width: 100%;
   height: 11px;
   background: url(../images/banner_lenta.png) no-repeat bottom;
+}
+
+
+
+.slider {
+  width: 100%;
+}
+
+
+
+footer {
+  width: 100%;
+}
+
+footer .widget {
+  background: url(../images/f_pattern1.png);
+  min-height: 70px;
+}
+
+footer .widget .inner {
+  width: 940px;
+  margin: 0 auto;
+}
+
+
+
+footer .info {
+  background: url(../images/f_pattern2.png);
+  min-height: 315px;
+}
+
+footer .info .inner {
+  width: 940px;
+  margin: 0 auto;
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.f_item_type1 {
+  width: 270px;
+
+}
+
+.f_item_type2 {
+  width: 180px;
 }
